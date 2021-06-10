@@ -38,5 +38,13 @@ namespace Client
         {
             Show();
         }
+
+        private void mutiplayButton_Click(object sender, EventArgs e)
+        {
+            Hide();
+            MutiplayForm mutiplayForm = new MutiplayForm();
+            mutiplayForm.FormClosed += new FormClosedEventHandler(childForm_Closed);
+            mutiplayForm.Show();
+        }
     }
 }

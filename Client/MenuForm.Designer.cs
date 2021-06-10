@@ -32,11 +32,12 @@ namespace Client
             this.singlePlayButton = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.exitButton = new System.Windows.Forms.Button();
+            this.mutiplayButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // singlePlayButton
             // 
-            this.singlePlayButton.Location = new System.Drawing.Point(241, 85);
+            this.singlePlayButton.Location = new System.Drawing.Point(241, 62);
             this.singlePlayButton.Name = "singlePlayButton";
             this.singlePlayButton.Size = new System.Drawing.Size(100, 50);
             this.singlePlayButton.TabIndex = 0;
@@ -46,7 +47,7 @@ namespace Client
             // 
             // exitButton
             // 
-            this.exitButton.Location = new System.Drawing.Point(241, 208);
+            this.exitButton.Location = new System.Drawing.Point(241, 250);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(100, 50);
             this.exitButton.TabIndex = 1;
@@ -54,11 +55,22 @@ namespace Client
             this.exitButton.UseVisualStyleBackColor = true;
             this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
+            // mutiplayButton
+            // 
+            this.mutiplayButton.Location = new System.Drawing.Point(241, 155);
+            this.mutiplayButton.Name = "mutiplayButton";
+            this.mutiplayButton.Size = new System.Drawing.Size(100, 50);
+            this.mutiplayButton.TabIndex = 2;
+            this.mutiplayButton.Text = "함께하기";
+            this.mutiplayButton.UseVisualStyleBackColor = true;
+            this.mutiplayButton.Click += new System.EventHandler(this.mutiplayButton_Click);
+            // 
             // MenuForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(578, 344);
+            this.Controls.Add(this.mutiplayButton);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.singlePlayButton);
             this.Name = "MenuForm";
@@ -73,6 +85,7 @@ namespace Client
         private System.Windows.Forms.Button singlePlayButton;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.Button exitButton;
+        private System.Windows.Forms.Button mutiplayButton;
     }
 }
 
