@@ -52,11 +52,11 @@
     <Compile Include="MenuForm.Designer.cs">
       <DependentUpon>MenuForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="mutiplayForm.cs">
+    <Compile Include="MultiplayForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="mutiplayForm.Designer.cs">
-      <DependentUpon>mutiplayForm.cs</DependentUpon>
+    <Compile Include="MultiplayForm.Designer.cs">
+      <DependentUpon>MultiplayForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -69,8 +69,8 @@
     <EmbeddedResource Include="MenuForm.resx">
       <DependentUpon>MenuForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="mutiplayForm.resx">
-      <DependentUpon>mutiplayForm.cs</DependentUpon>
+    <EmbeddedResource Include="MultiplayForm.resx">
+      <DependentUpon>MultiplayForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

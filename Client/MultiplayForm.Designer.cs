@@ -1,7 +1,7 @@
 ﻿
 namespace Client
 {
-    partial class MutiplayForm
+    partial class MultiplayForm
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@ namespace Client
         private void InitializeComponent()
         {
             this.boardPicture = new System.Windows.Forms.PictureBox();
-            this.roomtextBox = new System.Windows.Forms.TextBox();
+            this.roomTextBox = new System.Windows.Forms.TextBox();
             this.enterbutton = new System.Windows.Forms.Button();
             this.playButton = new System.Windows.Forms.Button();
             this.status = new System.Windows.Forms.Label();
@@ -48,12 +48,12 @@ namespace Client
             this.boardPicture.Paint += new System.Windows.Forms.PaintEventHandler(this.boardPicture_Paint);
             this.boardPicture.MouseDown += new System.Windows.Forms.MouseEventHandler(this.boardPicture_MouseDown);
             // 
-            // roomtextBox
+            // roomTextBox
             // 
-            this.roomtextBox.Location = new System.Drawing.Point(518, 30);
-            this.roomtextBox.Name = "roomtextBox";
-            this.roomtextBox.Size = new System.Drawing.Size(174, 28);
-            this.roomtextBox.TabIndex = 1;
+            this.roomTextBox.Location = new System.Drawing.Point(518, 30);
+            this.roomTextBox.Name = "roomTextBox";
+            this.roomTextBox.Size = new System.Drawing.Size(174, 28);
+            this.roomTextBox.TabIndex = 1;
             // 
             // enterbutton
             // 
@@ -84,7 +84,7 @@ namespace Client
             this.status.Text = "방을 입력해 접속해 주세요";
             this.status.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // MutiplayForm
+            // MultiplayForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -92,10 +92,10 @@ namespace Client
             this.Controls.Add(this.status);
             this.Controls.Add(this.playButton);
             this.Controls.Add(this.enterbutton);
-            this.Controls.Add(this.roomtextBox);
+            this.Controls.Add(this.roomTextBox);
             this.Controls.Add(this.boardPicture);
-            this.Name = "MutiplayForm";
-            this.Text = "mutiplayForm";
+            this.Name = "MultiplayForm";
+            this.Text = "MultiplayForm";
             this.Load += new System.EventHandler(this.mutiplayForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.boardPicture)).EndInit();
             this.ResumeLayout(false);
@@ -106,7 +106,7 @@ namespace Client
         #endregion
 
         private System.Windows.Forms.PictureBox boardPicture;
-        private System.Windows.Forms.TextBox roomtextBox;
+        private System.Windows.Forms.TextBox roomTextBox;
         private System.Windows.Forms.Button enterbutton;
         private System.Windows.Forms.Button playButton;
         private System.Windows.Forms.Label status;
